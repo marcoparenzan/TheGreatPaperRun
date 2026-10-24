@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "frameSize": { "width": 1600, "height": 900 },
+  "anchor": { "x": 0.5, "y": 1.0 },
+  "keys": {
+    "straight": "straight.png",
+    "left_gentle": "left_gentle.png",
+    "left_medium": "left_medium.png",
+    "left_hard": "left_hard.png",
+    "right_gentle": "right_gentle.png",
+    "right_medium": "right_medium.png",
+    "right_hard": "right_hard.png"
+  }
+}

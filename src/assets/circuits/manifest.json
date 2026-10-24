@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "defaultCircuit": "monza",
+  "defaultCar": "c3",
+  "defaultWeather": "day",
+  "backgrounds": [
+    {"id":"mountains-city","name":"Montagne e città","file":"../panorama-mountains-city-4096.png"},
+    {"id":"cybercity","name":"Cybercity","file":"../backgrounds/cybercity-4096.png"},
+    {"id":"sea","name":"Mare","file":"../backgrounds/sea-4096.png"},
+    {"id":"desert","name":"Deserto","file":"../backgrounds/desert-4096.png"}
+  ],
+  "circuits": [{
+    "id": "monza",
+    "name": "Monza",
+    "file": "monza.json",
+    "lengthMeters": 5793,
+    "background": "../panorama-mountains-city-4096.png",
+    "styles": ["day", "night", "cloudy"]
+  }, {
+    "id": "montecarlo",
+    "name": "Montecarlo",
+    "file": "montecarlo.json",
+    "lengthMeters": 3337,
+    "background": "../panorama-mountains-city-4096.png",
+    "styles": ["day", "night", "cloudy"]
+  }],
+  "cars": [
+    {"id":"c3","name":"Corvette C3","available":true,"file":"../cars/c3_spritesheet_8192_wheelanim.json"},
+    {"id":"dino_gt246","name":"Dino 246 GT","available":false,"file":"../cars/dino_gt246_spritesheet_8192_wheelanim.json"},
+    {"id":"gran_torino","name":"Gran Torino","available":false,"file":"../cars/gran_torino_spritesheet_8192_wheelanim.json"}
+  ],
+  "styles": {
+    "day":{"name":"Giorno","sky":"#99d8f2","grass":"#8abc72","horizon":"#000000","showSun":true,"backgroundFilter":"none"},
+    "night":{"name":"Notte","sky":"#181a1c","grass":"#123524","horizon":"#000000","showSun":false,"backgroundFilter":"brightness(0.4) saturate(0.5)"},
+    "cloudy":{"name":"Nuvoloso","sky":"#b7c1ca","grass":"#788e70","horizon":"#000000","showSun":false,"backgroundFilter":"brightness(0.82) grayscale(0.4)"}
+  }
+}

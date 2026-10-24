@@ -1,0 +1,10 @@
+ SOno partito dalla versione 4096
+  Prima fila 4 frame ferma.
+  Seconda fila 4 frame in movimento (al momento uguale a sopra)
+  Terza fila sterza destra. Ho spaziato le 4 immagini lasciando uno spazio. Vorrei che generassi i frame che mancano. Nella sterzata vorrei almeno due frame nella stessa posizione ma con le
+ruote che girano, cosi che sembri che stiano ruotando. QUindi a un livello di sterzata, ci deve essere l'animazione ad almeno due frame (0-1, 2-3, 4-5, 6-7) i frame 1 3 5 7 dovresti generarli.
+Gioca sul ridisegno del battistrada visibile.
+  Stessa cosa per la quarta fila sterza a sinistra.
+  Poi adatti anche il file json delle animazioni.
+  Stessa cosa anche per la 246 dino e per la gran torino. Puoi recuperare l'immagine di base della c3 copiarla due volte rinominare svuotare e rigenenrare dalle versioni 4096. e i json. Ci
+sta?

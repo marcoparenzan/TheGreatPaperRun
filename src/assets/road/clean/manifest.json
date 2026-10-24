@@ -1,0 +1,10 @@
+{
+  "source": "straight-base.png",
+  "generatedBy": "AI base silhouette, derived curvature frames generated on canvas",
+  "frameCount": 33,
+  "frameSize": { "width": 960, "height": 540 },
+  "curvatureRange": [-1, 1],
+  "markingsInImage": false,
+  "surface": "White cut paper, irregular black ink edges, subtle shadow",
+  "markings": "Two animated rows of black dots at 17% and 83% of road width"
+}

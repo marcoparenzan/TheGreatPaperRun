@@ -1,0 +1,681 @@
+{
+  "meta": {
+    "id": "c3",
+    "image": "c3_spritesheet_8192_wheelanim.png",
+    "size": {
+      "w": 8192,
+      "h": 8192
+    },
+    "format": "RGBA8888",
+    "layout": {
+      "columns": 8,
+      "activeRows": 6,
+      "order": "row-major",
+      "columnWidth": 1024,
+      "rowHeights": [1024, 1024, 1024, 1024, 1024, 1024],
+      "rows": 8
+    },
+    "anchorConvention": "bottom-center",
+    "wheelAnimation": {
+      "phasesPerSteeringLevel": 2,
+      "generatedFrames": "b",
+      "method": "tread-redraw"
+    }
+  },
+  "animations": {
+    "ferma": {
+      "frames": [
+        "ferma_01",
+        "ferma_02",
+        "ferma_03",
+        "ferma_04"
+      ],
+      "frameDurationMs": 180,
+      "loop": true
+    },
+    "avanti": {
+      "frames": [
+        "avanti_01",
+        "avanti_02",
+        "avanti_03",
+        "avanti_04"
+      ],
+      "frameDurationMs": 100,
+      "loop": true
+    },
+    "destra": {
+      "frames": [
+        "destra_livello_0_a",
+        "destra_livello_0_b",
+        "destra_livello_1_a",
+        "destra_livello_1_b",
+        "destra_livello_2_a",
+        "destra_livello_2_b",
+        "destra_livello_3_a",
+        "destra_livello_3_b"
+      ],
+      "frameDurationMs": 90,
+      "loop": false
+    },
+    "sinistra": {
+      "frames": [
+        "sinistra_livello_0_a",
+        "sinistra_livello_0_b",
+        "sinistra_livello_1_a",
+        "sinistra_livello_1_b",
+        "sinistra_livello_2_a",
+        "sinistra_livello_2_b",
+        "sinistra_livello_3_a",
+        "sinistra_livello_3_b"
+      ],
+      "frameDurationMs": 90,
+      "loop": false
+    },
+    "incidente_dx": {
+      "frames": [
+        "incidente_dx_01",
+        "incidente_dx_02",
+        "incidente_dx_03",
+        "incidente_dx_04"
+      ],
+      "frameDurationMs": 140,
+      "loop": false
+    },
+    "incidente_sx": {
+      "frames": [
+        "incidente_sx_01",
+        "incidente_sx_02",
+        "incidente_sx_03",
+        "incidente_sx_04"
+      ],
+      "frameDurationMs": 140,
+      "loop": false
+    },
+    "destra_livello_0": {
+      "frames": [
+        "destra_livello_0_a",
+        "destra_livello_0_b"
+      ],
+      "frameDurationMs": 90,
+      "loop": true,
+      "steeringLevel": 0
+    },
+    "destra_livello_1": {
+      "frames": [
+        "destra_livello_1_a",
+        "destra_livello_1_b"
+      ],
+      "frameDurationMs": 90,
+      "loop": true,
+      "steeringLevel": 1
+    },
+    "destra_livello_2": {
+      "frames": [
+        "destra_livello_2_a",
+        "destra_livello_2_b"
+      ],
+      "frameDurationMs": 90,
+      "loop": true,
+      "steeringLevel": 2
+    },
+    "destra_livello_3": {
+      "frames": [
+        "destra_livello_3_a",
+        "destra_livello_3_b"
+      ],
+      "frameDurationMs": 90,
+      "loop": true,
+      "steeringLevel": 3
+    },
+    "sinistra_livello_0": {
+      "frames": [
+        "sinistra_livello_0_a",
+        "sinistra_livello_0_b"
+      ],
+      "frameDurationMs": 90,
+      "loop": true,
+      "steeringLevel": 0
+    },
+    "sinistra_livello_1": {
+      "frames": [
+        "sinistra_livello_1_a",
+        "sinistra_livello_1_b"
+      ],
+      "frameDurationMs": 90,
+      "loop": true,
+      "steeringLevel": 1
+    },
+    "sinistra_livello_2": {
+      "frames": [
+        "sinistra_livello_2_a",
+        "sinistra_livello_2_b"
+      ],
+      "frameDurationMs": 90,
+      "loop": true,
+      "steeringLevel": 2
+    },
+    "sinistra_livello_3": {
+      "frames": [
+        "sinistra_livello_3_a",
+        "sinistra_livello_3_b"
+      ],
+      "frameDurationMs": 90,
+      "loop": true,
+      "steeringLevel": 3
+    }
+  },
+  "frames": {
+    "ferma_01": {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "avanti_01": {
+      "rect": {
+        "x": 0,
+        "y": 1024,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "ferma_02": {
+      "rect": {
+        "x": 1024,
+        "y": 0,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "avanti_02": {
+      "rect": {
+        "x": 1024,
+        "y": 1024,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "ferma_03": {
+      "rect": {
+        "x": 2048,
+        "y": 0,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "avanti_03": {
+      "rect": {
+        "x": 2048,
+        "y": 1024,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "ferma_04": {
+      "rect": {
+        "x": 3072,
+        "y": 0,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "avanti_04": {
+      "rect": {
+        "x": 3072,
+        "y": 1024,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "destra_livello_0_a": {
+      "rect": {
+        "x": 0,
+        "y": 2048,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "destra_livello_0_b": {
+      "rect": {
+        "x": 1024,
+        "y": 2048,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "destra_livello_1_a": {
+      "rect": {
+        "x": 2048,
+        "y": 2048,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "destra_livello_1_b": {
+      "rect": {
+        "x": 3072,
+        "y": 2048,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "destra_livello_2_a": {
+      "rect": {
+        "x": 4096,
+        "y": 2048,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "destra_livello_2_b": {
+      "rect": {
+        "x": 5120,
+        "y": 2048,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "destra_livello_3_a": {
+      "rect": {
+        "x": 6144,
+        "y": 2048,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "destra_livello_3_b": {
+      "rect": {
+        "x": 7168,
+        "y": 2048,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "sinistra_livello_0_a": {
+      "rect": {
+        "x": 0,
+        "y": 3072,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "sinistra_livello_0_b": {
+      "rect": {
+        "x": 1024,
+        "y": 3072,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "sinistra_livello_1_a": {
+      "rect": {
+        "x": 2048,
+        "y": 3072,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "sinistra_livello_1_b": {
+      "rect": {
+        "x": 3072,
+        "y": 3072,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "sinistra_livello_2_a": {
+      "rect": {
+        "x": 4096,
+        "y": 3072,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "sinistra_livello_2_b": {
+      "rect": {
+        "x": 5120,
+        "y": 3072,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "sinistra_livello_3_a": {
+      "rect": {
+        "x": 6144,
+        "y": 3072,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "sinistra_livello_3_b": {
+      "rect": {
+        "x": 7168,
+        "y": 3072,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "incidente_dx_01": {
+      "rect": {
+        "x": 0,
+        "y": 4096,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "incidente_sx_01": {
+      "rect": {
+        "x": 0,
+        "y": 5120,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "incidente_dx_02": {
+      "rect": {
+        "x": 2048,
+        "y": 4096,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "incidente_sx_02": {
+      "rect": {
+        "x": 2048,
+        "y": 5120,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "incidente_dx_03": {
+      "rect": {
+        "x": 4096,
+        "y": 4096,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "incidente_sx_03": {
+      "rect": {
+        "x": 4096,
+        "y": 5120,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "incidente_dx_04": {
+      "rect": {
+        "x": 6144,
+        "y": 4096,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    },
+    "incidente_sx_04": {
+      "rect": {
+        "x": 6144,
+        "y": 5120,
+        "w": 1024,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "originPx": {
+        "x": 512,
+        "y": 880
+      }
+    }
+  }
+}

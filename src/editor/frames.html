@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Great Paper Run — Frame stradali</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-100 text-stone-900 min-h-screen">
+  <main class="max-w-5xl mx-auto p-5 md:p-10">
+    <a href="../" class="underline text-sm">← Torna alla guida</a>
+    <h1 class="text-3xl font-bold mt-6">33 curvature, nessuna striscia</h1>
+    <p class="mt-3 text-stone-600">Una base AI e 33 deformazioni graduali. I PNG esportati hanno sfondo trasparente e non contengono bolli: la segnaletica viene animata separatamente nel gioco.</p>
+    <canvas id="preview" width="960" height="540" class="w-full bg-white border border-stone-300 mt-6 rounded-lg" aria-label="Anteprima del frame stradale"></canvas>
+    <div class="bg-white rounded-lg border border-stone-300 p-5 mt-4">
+      <label for="curvature" class="font-semibold">Curvatura: <output id="value" for="curvature">0</output></label>
+      <input id="curvature" type="range" min="-16" max="16" value="0" step="1" class="w-full mt-4" disabled>
+      <div class="flex justify-between text-sm text-stone-500"><span>Sinistra</span><span>Rettilineo</span><span>Destra</span></div>
+      <button id="download" type="button" class="bg-black text-white rounded px-5 py-3 mt-5 disabled:opacity-40" disabled>Scarica questo PNG</button>
+      <p id="status" role="status" class="text-sm text-stone-600 mt-3">Preparazione dei frame…</p>
+    </div>
+  </main>
+  <script type="module" src="../js/editor/frames-main.js"></script>
+</body>
+</html>

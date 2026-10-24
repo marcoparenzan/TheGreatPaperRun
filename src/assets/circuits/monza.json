@@ -1,0 +1,27 @@
+{
+  "id": "monza",
+  "name": "Monza",
+  "lengthMeters": 5793,
+  "closed": true,
+  "markerSpacingMeters": 100,
+  "description": "Circuito semplificato ispirato a Monza; distanze dei singoli tratti e raggi non riproducono la geometria reale.",
+  "sections": [
+    {"name":"Rettifilo","weight":900,"curve":"straight","z":0},
+    {"name":"Variante del Rettifilo","weight":220,"curve":"right_hard","z":0},
+    {"name":"Uscita variante","weight":180,"curve":"left_hard","z":0},
+    {"name":"Curva Grande","weight":650,"curve":"right_gentle","z":0},
+    {"name":"Roggia","weight":180,"curve":"left_hard","z":0},
+    {"name":"Uscita Roggia","weight":170,"curve":"right_hard","z":0},
+    {"name":"Prima di Lesmo","weight":300,"curve":"straight","z":0},
+    {"name":"Lesmo 1","weight":250,"curve":"right_medium","z":0},
+    {"name":"Tra le Lesmo","weight":200,"curve":"straight","z":0},
+    {"name":"Lesmo 2","weight":250,"curve":"right_medium","z":0},
+    {"name":"Serraglio","weight":800,"curve":"straight","z":0},
+    {"name":"Ascari ingresso","weight":180,"curve":"left_medium","z":0},
+    {"name":"Ascari centro","weight":200,"curve":"right_medium","z":0},
+    {"name":"Ascari uscita","weight":180,"curve":"left_medium","z":0},
+    {"name":"Rettifilo opposto","weight":700,"curve":"straight","z":0},
+    {"name":"Parabolica","weight":450,"curve":"right_medium","z":0},
+    {"name":"Verso il traguardo","weight":190,"curve":"straight","z":0}
+  ]
+}
